@@ -8,7 +8,7 @@ export interface UserProps{
   user: User;
 }
 
-function Profile({ user } : InferGetStaticPropsType<typeof getStaticProps> ){
+function Profile({ user }: InferGetStaticPropsType<typeof getStaticProps> ){
 
   const router = useRouter();
 
